@@ -1,0 +1,29 @@
+{
+  "name": "jesscrape",
+  "version": "1.0.0",
+  "description": "Modular multi-platform web scraping and data extraction library for Node.js.",
+  "keywords": [
+    "scraping"
+  ],
+  "homepage": "https://github.com/JesXG/jesscrape#readme",
+  "bugs": {
+    "url": "https://github.com/JesXG/jesscrape/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JesXG/jesscrape.git"
+  },
+  "author": "jesternovaz",
+  "type": "commonjs",
+  "main": "index.js",
+  "directories": {
+    "example": "examples",
+    "test": "test"
+  },
+  "scripts": {
+    "test": "node --test test/*.test.js"
+  },
+  "dependencies": {
+    "cheerio": "^1.2.0"
+  }
+}
